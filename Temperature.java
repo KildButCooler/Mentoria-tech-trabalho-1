@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ConversaoTemperatura {
+public class Temperature {
 
     public static void main(String[] args) {
         // Criação de um objeto Scanner para leitura de dados
@@ -14,8 +14,8 @@ public class ConversaoTemperatura {
                 double celsius = sc.nextDouble();
 
                 // Calculando a temperatura em Fahrenheit
-                // CORREÇÃO: Usar 9.0/5.0 para garantir uma divisão de ponto flutuante (decimal)
-                double fahrenheit = (celsius * 9.0/5.0) + 32;
+                // Usar 9.0/5.0 para garantir divisão de ponto flutuante
+                double fahrenheit = (celsius * 9.0 / 5.0) + 32;
 
                 // Calculando a temperatura em Kelvin
                 double kelvin = celsius + 273.15;
